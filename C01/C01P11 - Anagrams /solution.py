@@ -1,5 +1,8 @@
+from collections import Counter
+
+
 def char_histogram(string):
-    return {char: string.count(char) for char in set(string)}
+    return Counter(string)
 
 
 def anagrams(word1, word2):
@@ -7,6 +10,7 @@ def anagrams(word1, word2):
     word2 = word2.replace(' ', '').lower()
     histogram1 = char_histogram(word1)
     histogram2 = char_histogram(word2)
+    print(histogram1, histogram2)
     return histogram1 == histogram2
 
 
