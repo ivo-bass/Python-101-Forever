@@ -26,7 +26,7 @@ def is_credit_card_valid(number):
         if not i % 2 == 0:
             num *= 2
             if num >= 10:
-                num = sum([int(s) for s in str(num)])
+                num = sum(int(s) for s in str(num))
         digits.appendleft(num)
     return sum(digits) % 10 == 0
 
