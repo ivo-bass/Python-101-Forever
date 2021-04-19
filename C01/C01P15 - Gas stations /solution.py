@@ -46,14 +46,14 @@ class Trip:
             return self.distance
         return self.stations[self.current_index + 1]
 
-    def stop_at_station(self):
+    def stop_at_gas_station(self):
         self.distance_left = self.distance - self.current_station
         self.stops.append(self.current_station)
 
     def driving_simulation(self, car: Car):
         while self.distance_left > car.tank_size and self.current_index < len(self.stations):
             if self.next_station - self.previous_station >= car.tank_size:
-                self.stop_at_station()
+                self.stop_at_gas_station()
             self.current_index += 1
 
 
