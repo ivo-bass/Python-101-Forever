@@ -14,7 +14,7 @@ By using this information we will implement a function that returns the shortest
  that we have to visit in order to travel from Sofia to Bourgas. We allways start with a full tank_size!
 """
 
-from unittest import TestCase
+from unittest import TestCase, main
 
 
 class Car:
@@ -80,3 +80,19 @@ class TestGasStations(TestCase):
         expected = []
         result = gas_stations(50, 100, [10, 50, 100, 200])
         self.assertListEqual(expected, result)
+
+    # Todo:
+
+    # def test_4(self):
+    #     expected = [50]
+    #     result = gas_stations(100, 50, [10, 20, 30, 40, 50, 60, 70, 80, 90, 150])
+    #     self.assertListEqual(expected, result)
+    #
+    # def test_5(self):
+    #     expected = [10]
+    #     result = gas_stations(100, 50, [10, 90])
+    #     self.assertListEqual(expected, result)
+
+
+if __name__ == '__main__':
+    main()
