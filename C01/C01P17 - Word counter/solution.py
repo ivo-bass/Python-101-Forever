@@ -1,6 +1,3 @@
-PRIMARy_DIAGONAL = (1, 1)
-
-
 def count_word_in_text(text, word):
     return text.count(word) + text[::-1].count(word)
 
