@@ -30,7 +30,7 @@ def bomb_neighbours(matrix, x, y):
             continue
 
         current_value = matrix[row_index][col_index]
-        matrix[row_index][col_index] = current_value - value if current_value >= value else 0
+        matrix[row_index][col_index] = max(0, current_value - value)
 
 
 def matrix_bombing_plan(matrix):
