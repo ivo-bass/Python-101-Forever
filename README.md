@@ -8,47 +8,46 @@ My solutions for [***HackBulgaria's***](https://hackbulgaria.com/) course [**Pyt
 
 ## Solutions
 
-**Concept 01 - Python Basics** [*click here*](/C01) 
+[**Concept 01 - Python Basics**](/C01) 
 
-**Concept 02 - Linux** [*click here*](/C02) 
+[**Concept 02 - Linux**](/C02) 
 
-**Concept 03 - Unit testing**  [*not available*] 
+**Concept 03 - Unit testing** 
 
-[comment]: <> (**Concept 03 - Unit testing** [*click here*]&#40;/C03&#41; )
+[comment]: <> ([**Concept 03 - Unit testing**]&#40;/C03&#41; )
 
-**Concept 04 - Algorithms and Data structures**  [*not available*] 
+**Concept 04 - Algorithms and Data structures** 
 
-[comment]: <> (**Concept 04 - Algorithms and Data structures** [*click here*]&#40;/C04&#41; )
+[comment]: <> ([**Concept 04 - Algorithms and Data structures**]&#40;/C04&#41; )
 
-**Concept 05 - Modules, namespaces & interfaces**  [*not available*] 
+**Concept 05 - Modules, namespaces & interfaces** 
 
-[comment]: <> (**Concept 05 - Modules, namespaces & interfaces** [*click here*]&#40;/C05&#41; )
+[comment]: <> ([**Concept 05 - Modules, namespaces & interfaces**]&#40;/C05&#41; )
 
-**Concept 06 - Expanding in Python, part 1**  [*not available*] 
+**Concept 06 - Expanding in Python, part 1** 
 
-[comment]: <> (**Concept 06 - Expanding in Python, part 1** [*click here*]&#40;/C06&#41; )
+[comment]: <> ([**Concept 06 - Expanding in Python, part 1**]&#40;/C06&#41; )
 
-**Concept 07 - Keeping it practical, part 1**  [*not available*] 
+**Concept 07 - Keeping it practical, part 1** 
 
-[comment]: <> (**Concept 07 - Keeping it practical, part 1** [*click here*]&#40;/C07&#41; )
+[comment]: <> ([**Concept 07 - Keeping it practical, part 1**]&#40;/C07&#41; )
 
-**Concept 08 - Introduction to Databases / SQL** [*not available*] 
+**Concept 08 - Introduction to Databases / SQL**
 
-[comment]: <> (**Concept 08 - Introduction to Databases / SQL** [click here*]&#40;/C08&#41; )
+[comment]: <> ([**Concept 08 - Introduction to Databases / SQL*]&#40;/C08&#41; )
 
-**Concept 09 - Python & SQL**  [*not available*] 
+**Concept 09 - Python & SQL** 
 
-[comment]: <> (**Concept 09 - Python & SQL** [*click here*]&#40;/C09&#41; )
+[comment]: <> ([**Concept 09 - Python & SQL**]&#40;/C09&#41; )
 
-**Concept 10 - Expanding in Python, part 2**  [*not available*] 
+**Concept 10 - Expanding in Python, part 2** 
 
-[comment]: <> (**Concept 10 - Expanding in Python, part 2** [*click here*]&#40;/C10&#41; )
+[comment]: <> ([**Concept 10 - Expanding in Python, part 2**]&#40;/C10&#41; )
 
-**Concept 11 - Keeping it Practical, part 2**  [*not available*] 
+**Concept 11 - Keeping it Practical, part 2** 
 
-[comment]: <> (**Concept 11 - Keeping it Practical, part 2** [*click here*]&#40;/C11&#41; )
+[comment]: <> ([**Concept 11 - Keeping it Practical, part 2**]&#40;/C11&#41; )
 
-**Concept 12 - Git**  [*not available*] 
+**Concept 12 - Git** 
 
-[comment]: <> (**Concept 12 - Git** [*click here*]&#40;/C12&#41; )
-
+[comment]: <> ([**Concept 12 - Keeping it Practical, part 2**]&#40;/C12&#41; )
