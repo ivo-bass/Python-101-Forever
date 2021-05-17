@@ -1,55 +1,54 @@
 # Python-101-Forever
 
+
+## Introduction
+
 My solutions for [***HackBulgaria's***](https://hackbulgaria.com/) course [**Python-101-Forever**](https://github.com/HackBulgaria/Python-101-Forever)
 
-[***Concept-01-Python Basics***](/C01) 
 
-[***Concept 02-Linux***](/C02) 
+## Solutions
 
-[comment]: <> ([***Concept 03***]&#40;https://github.com/ivo-bass/Python-101-Forever/tree/main/C03&#41; )
+**Concept 01 - Python Basics** [*click here*](/C01) 
 
-[comment]: <> ([***Concept 04***]&#40;https://github.com/ivo-bass/Python-101-Forever/tree/main/C04&#41; )
+**Concept 02 - Linux** [*click here*](/C02) 
 
-[comment]: <> ([***Concept 05***]&#40;https://github.com/ivo-bass/Python-101-Forever/tree/main/C05&#41; )
+**Concept 03 - Unit testing**  [*not available*] 
 
-[comment]: <> ([***Concept 06***]&#40;https://github.com/ivo-bass/Python-101-Forever/tree/main/C06&#41; )
+[comment]: <> (**Concept 03 - Unit testing** [*click here*]&#40;/C03&#41; )
 
-[comment]: <> ([***Concept 07***]&#40;https://github.com/ivo-bass/Python-101-Forever/tree/main/C07&#41; )
+**Concept 04 - Algorithms and Data structures**  [*not available*] 
 
-[comment]: <> ([***Concept 08***]&#40;https://github.com/ivo-bass/Python-101-Forever/tree/main/C08&#41; )
+[comment]: <> (**Concept 04 - Algorithms and Data structures** [*click here*]&#40;/C04&#41; )
 
-[comment]: <> ([***Concept 09***]&#40;https://github.com/ivo-bass/Python-101-Forever/tree/main/C09&#41; )
+**Concept 05 - Modules, namespaces & interfaces**  [*not available*] 
 
-[comment]: <> ([***Concept 10***]&#40;https://github.com/ivo-bass/Python-101-Forever/tree/main/C10&#41; )
+[comment]: <> (**Concept 05 - Modules, namespaces & interfaces** [*click here*]&#40;/C05&#41; )
 
-[comment]: <> (| Concept                               | Link                                   |)
+**Concept 06 - Expanding in Python, part 1**  [*not available*] 
 
-[comment]: <> (|---------------------------------------|----------------------------------------|)
+[comment]: <> (**Concept 06 - Expanding in Python, part 1** [*click here*]&#40;/C06&#41; )
 
-[comment]: <> (| 00 - Course Introduction              | [Click here]&#40;C00-Course-Introduction/&#41; |)
+**Concept 07 - Keeping it practical, part 1**  [*not available*] 
 
-[comment]: <> (| 01 - Python Basics                    | [Click here]&#40;C01-Python-Basics/&#41;       |)
+[comment]: <> (**Concept 07 - Keeping it practical, part 1** [*click here*]&#40;/C07&#41; )
 
-[comment]: <> (| 02 - Linux                            | *Coming soon*                          |)
+**Concept 08 - Introduction to Databases / SQL** [*not available*] 
 
-[comment]: <> (| 03 - Unit testing                     | *Coming soon*                          |)
+[comment]: <> (**Concept 08 - Introduction to Databases / SQL** [click here*]&#40;/C08&#41; )
 
-[comment]: <> (| 04 - Algorithms and Data structures   | *Coming soon*                          |)
+**Concept 09 - Python & SQL**  [*not available*] 
 
-[comment]: <> (| 05 - Modules, namespaces & interfaces | *Coming soon*                          |)
+[comment]: <> (**Concept 09 - Python & SQL** [*click here*]&#40;/C09&#41; )
 
-[comment]: <> (| 06 - Expanding in Python, part 1      | *Coming soon*                          |)
+**Concept 10 - Expanding in Python, part 2**  [*not available*] 
 
-[comment]: <> (| 07 - Keeping it practical, part 1     | *Coming soon*                          |)
+[comment]: <> (**Concept 10 - Expanding in Python, part 2** [*click here*]&#40;/C10&#41; )
 
-[comment]: <> (| 08 - Introduction to Databases / SQL  | *Coming soon*                          |)
+**Concept 11 - Keeping it Practical, part 2**  [*not available*] 
 
-[comment]: <> (| 09 - Python & SQL                     | *Coming soon*                          |)
+[comment]: <> (**Concept 11 - Keeping it Practical, part 2** [*click here*]&#40;/C11&#41; )
 
-[comment]: <> (| 10 - Expanding in Python, part 2      | *Coming soon*                          |)
+**Concept 12 - Git**  [*not available*] 
 
-[comment]: <> (| 11 - Keeping it Practical, part 2     | *Coming soon*                          |)
+[comment]: <> (**Concept 12 - Git** [*click here*]&#40;/C12&#41; )
 
-[comment]: <> (| 12 - Git                              | *Coming soon*                          |)
-
-[comment]: <> (| *There's more to come*                | *Coming soon*                          |)
