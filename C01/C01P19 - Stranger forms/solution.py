@@ -1,3 +1,5 @@
+# TODO: start iterating from top left friend to exclude impossible positions for less time complexity
+
 TAKEN_SEAT = "*"
 DIRECTIONS = {
     "A": (-1, 0),  # Above
