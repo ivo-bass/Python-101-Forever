@@ -1,5 +1,4 @@
 TAKEN_SEAT = "*"
-EMPTY_SEAT = "."
 DIRECTIONS = {
     "A": (-1, 0),  # Above
     "R": (0, 1),   # Right
