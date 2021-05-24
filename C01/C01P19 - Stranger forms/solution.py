@@ -1,5 +1,3 @@
-# TODO: start iterating from top left friend to exclude impossible positions for less time complexity
-
 TAKEN_SEAT = "*"
 DIRECTIONS = {
     "A": (-1, 0),  # Above
@@ -16,12 +14,15 @@ def get_cinema_layout(cinema_layout):
 
 def get_friends_relative_positions(friends_configuration):
     # create dict and add center name's position
-    dd = {friends_configuration[0]: (0, 0)}
-    for config in friends_configuration[1:]:
+    center_friend = friends_configuration.pop(0)
+    dd = {center_friend: (0, 0)}
+    for config in friends_configuration:
         name_to_write, direction, name_to_check = config
         # sum the elements of tuples: (delta_x + previous_x, delta_y + previous_y)
         # and write the position for the given name related to the center name
-        dd[name_to_write] = tuple(map(sum, zip(DIRECTIONS[direction], dd.get(name_to_check))))
+        zip_direction_to_position = zip(DIRECTIONS[direction], dd.get(name_to_check))
+        calc_position = map(sum, zip_direction_to_position)
+        dd[name_to_write] = tuple(calc_position)
     return dd
 
 
@@ -79,14 +80,12 @@ test_cinema_layout = [
     '*......*.*',
     '.....**..*',
     '..*.*.*..*',
-    '***.*.**..'
+    '***.*.**..',
 ]
-
 test_friends_configuration = ["A", "BAA", "FRA", "CAB", "DRC", "EAD", "GLE"]
-
 possible_configurations = stranger_forms(test_cinema_layout, test_friends_configuration)
+
 for configuration in possible_configurations:
     for line in configuration:
         print(line)
     print()
-
