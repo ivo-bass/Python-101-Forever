@@ -1,25 +1,39 @@
 ROOT = "/"
+EMPTY = ""
 CURRENT = "."
 PARENT = ".."
+PATHS_TO_SKIP = (EMPTY, CURRENT, PARENT)
 
 
 def reduce_file_path(path):
-    # Split will leave empty strings in the list
-    # so we need to skip them later
     dirs = path.split("/")
-    new_path_list = []
+    new_path = []
+
+    for directory in dirs:
+        if directory not in PATHS_TO_SKIP:
+            new_path.append(directory)
+        if directory == PARENT and new_path:
+            new_path.pop()
+
+    return ROOT + "/".join(new_path)
+
+
+def reduce_file_path_2(path):
+    # Defensive programing solution
+
+    dirs = path.split("/")
+    new_path = []
 
     for directory in dirs:
         if directory == CURRENT or not directory:
             continue
         if directory == PARENT:
-            if new_path_list:
-                new_path_list.pop()
+            if new_path:
+                new_path.pop()
             continue
-        new_path_list.append(directory)
+        new_path.append(directory)
 
-    return ROOT + "/".join(new_path_list)
-
+    return ROOT + "/".join(new_path)
 
 
 tests = [
