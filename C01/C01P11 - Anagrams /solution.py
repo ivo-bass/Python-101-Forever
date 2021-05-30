@@ -1,8 +1,8 @@
-from collections import Counter
-
-
 def char_histogram(string):
-    return Counter(string)
+    dd = {}
+    for char in string:
+        dd[char] = dd.get(char, 0) + 1
+    return dd
 
 
 def anagrams(word1, word2):
