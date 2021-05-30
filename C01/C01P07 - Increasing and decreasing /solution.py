@@ -10,9 +10,18 @@ class Monotonicity(Enum):
 def increasing_or_decreasing(ns):
     if len(ns) <= 1:
         return Monotonicity.NONE
-    if all(ns[i] < ns[i + 1] for i in range(len(ns) - 1)):
+
+    increasing = True
+    decreasing = True
+    for i in range(len(ns) - 1):
+        a = ns[i]
+        b = ns[i + 1]
+        increasing = increasing and a < b
+        decreasing = decreasing and a > b
+
+    if increasing:
         return Monotonicity.INCREASING
-    elif all(ns[i] > ns[i + 1] for i in range(len(ns) - 1)):
+    if decreasing:
         return Monotonicity.DECREASING
     return Monotonicity.NONE
 
