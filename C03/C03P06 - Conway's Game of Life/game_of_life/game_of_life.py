@@ -1,19 +1,23 @@
-from core.controller import Controller
+from core.controller import Game
+from core.factory import ObjectsFactory
 
 
 def main():
-    ctrl = Controller(50, 50)
-    ctrl.set_glider(1, 1)
-    ctrl.set_glider(10, 10)
-    ctrl.set_glider(20, 20)
-    ctrl.set_glider(30, 30)
-    ctrl.set_blinker(19, 19)
-    ctrl.set_blinker(22, 22)
-    ctrl.set_blinker(3, 15)
-    ctrl.show_board()
-    while not ctrl.is_still:
-        ctrl.next_generation()
-        ctrl.show_board()
+    game = Game(50, 50)
+    factory = ObjectsFactory(game)
+
+    factory.set_glider(1, 1)
+    factory.set_glider(10, 10)
+    factory.set_glider(20, 20)
+    factory.set_glider(30, 30)
+    factory.set_blinker(19, 19)
+    factory.set_blinker(22, 22)
+    factory.set_blinker(3, 15)
+
+    game.show_board()
+    while not game.is_still:
+        game.next_generation()
+        game.show_board()
 
 
 if __name__ == '__main__':
